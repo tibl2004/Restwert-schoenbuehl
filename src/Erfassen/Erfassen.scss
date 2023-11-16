@@ -1,0 +1,85 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  
+    .input-field {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+  
+      label {
+        text-align: right;
+        margin-right: 10px;
+      }
+  
+      input {
+        width: 800px;
+        height: 30px;
+        font-size: 20px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+      }
+  
+      button {
+        height: 40px;
+        font-size: 20px;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+  
+  .navbar {
+    height: 100px;
+    background-color: gray;
+  
+    .logo-container {
+      display: flex;
+      align-items: center;
+      height: 102px; /* Die gleiche Höhe wie die Navbar */
+      background-color: #0c66b4;
+      margin-top: 0;
+  
+      img {
+        max-height: 100%;
+      }
+  
+      .version-label {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: white;
+        font-size: 18px; /* Passe die Größe nach Bedarf an */
+        padding: 10px; /* Füge Abstand um den Text hinzu */
+        background-color: rgba(0, 0, 0, 0.5); /* Hintergrundfarbe mit Transparenz */
+      }
+    }
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Hintergrundfarbe mit Transparenz */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Stelle sicher, dass das Overlay über anderen Elementen liegt */
+  }
+  

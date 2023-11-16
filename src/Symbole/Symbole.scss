@@ -1,0 +1,46 @@
+/* Symbole.module.scss */
+
+.symbole-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.symbole-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.symbol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+  .symbol-content {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background: orange;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s, color 0.3s;
+
+    &.copied {
+      color: white;
+      background-color: green;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

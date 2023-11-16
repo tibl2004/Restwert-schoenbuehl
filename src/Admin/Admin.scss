@@ -1,0 +1,70 @@
+/* Fügen Sie diese CSS-Regeln zu Ihrer Admin.scss-Datei hinzu */
+.box-content {
+    color: white;
+}
+
+.admin-container {
+    padding: 20px;
+}
+
+.add {
+    margin-top: 10px;
+    height: 38px;
+    width: 191px;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.admin-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Zeigt 3 Admins in einer Reihe an */
+    gap: 20px; /* Abstand zwischen Admins */
+}
+
+.admin-item {
+    background-color: #457b9d;
+    padding: 20px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.admin-details p {
+    margin: 5px 0;
+}
+
+.admin-buttons {
+    margin-top: 10px;
+}
+
+.admin-buttons .delete {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-buttons .delete:hover {
+    background-color: #d00000;
+}
+
+.bearbeiten {
+    background-color: #ffa726;
+}
+
+.bearbeiten:hover {
+    background-color: #f57c00;
+}

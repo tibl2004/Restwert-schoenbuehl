@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.aufgaben {
+    height: 100px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addTable {
+    float: right;
+    font-size: 30px;
+    height: 50px;
+    margin-right: 60px;
+}

@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+        "id": 1,
+        "username": "Admin.Restwert",
+        "password": "R3st3ff1z."
+    },
+    {
+        "id": 2,
+        "username": "AlHof",
+        "password": "A73xR35tw3rt"
+    },
+    {
+        "id": 3,
+        "username": "NaBar",
+        "password": "Nad7aR35tw3rt"
+    },
+    {
+        "id": 4,
+        "username": "CoSch",
+        "password": "C0rn371aR35tw3rt"
+    },
+    {
+      "id": 5,
+      "username": "123",
+      "password": "123"
+  }
+  ]
+}

@@ -1,0 +1,61 @@
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+  }
+  
+  .Circle {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    animation: grow 2s ease-out forwards, growElements 2s ease-out forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 1s ease-out;
+  }
+  
+  .Circle.visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s ease-out;
+  }
+  
+  .LoginForm {
+    text-align: center;
+  }
+  
+  .LoginForm input,
+  .LoginForm button {
+    margin: 10px;
+    padding: 10px; /* Achte darauf, dass die Padding-Werte gleich sind */
+    width: 300px; /* Breite der Input-Felder und des Buttons */
+    height: 50px; /* Höhe der Input-Felder und des Buttons */
+    border: 1px solid #ccc; /* Hinzufügen einer dünnen Umrandung für Ästhetik */
+  }
+  
+  .LoginForm button {
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #0c66b4;
+    }
+  }
+  
+  @keyframes grow {
+    from {
+      width: 50px;
+      height: 50px;
+    }
+    to {
+      width: 500px;
+      height: 500px;
+    }
+  }
+  
+  

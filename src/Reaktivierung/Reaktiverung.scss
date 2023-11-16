@@ -1,0 +1,49 @@
+.formatierung {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    /* Optional: Abstand nach oben */
+}
+
+label {
+    margin-bottom: 10px;
+    /* Optional: Abstand unter dem Label */
+}
+
+input[type="date"] {
+    width: 200px;
+    /* Optional: Breite des Datumsauswahl-Inputs anpassen */
+}
+
+button {
+    margin-top: 10px;
+    /* Optional: Abstand über dem Button */
+}
+
+/* Reaktiverung.scss */
+
+/* Stil für das Date Picker-Element */
+input[type="date"] {
+    width: 200px;
+    /* Optional: Breite des Date Pickers anpassen */
+    padding: 10px;
+    /* Optional: Innenabstand anpassen */
+    border: 1px solid #ccc;
+    /* Randstil anpassen */
+    border-radius: 5px;
+    /* Randradius anpassen */
+    font-size: 16px;
+    /* Schriftgröße anpassen */
+    background-color: #f5f5f5;
+    /* Hintergrundfarbe anpassen */
+}
+
+/* Stil für das Date Picker-Element, wenn es aktiv ist */
+input[type="date"]:focus {
+    outline: none;
+    /* Entfernt den Standard-Fokus-Rahmen */
+    border-color: #007bff;
+    /* Ändert die Randfarbe im Fokus */
+}
